@@ -158,7 +158,7 @@ The Lifecycle flows the events in order and executes and their `onPre` & `onPost
 
 <details>
   <summary>Using onInit</summary>
-  
+
   <br/>
 
 **1. Using with a Plugin**
@@ -201,7 +201,7 @@ build:
 
 <details>
   <summary>Using onPreBuild</summary>
-  
+
   <br/>
 
 **1. Using with a Plugin**
@@ -244,7 +244,7 @@ build:
 
 <details>
   <summary>Using onBuild</summary>
-  
+
   <br/>
 
 **1. Using with a Plugin**
@@ -287,7 +287,7 @@ build:
 
 <details>
   <summary>Using onPostBuild</summary>
-  
+
   <br/>
 
 **1. Using with a Plugin**
@@ -330,7 +330,7 @@ build:
 
 <details>
   <summary>Using onSuccess</summary>
-  
+
   <br/>
 
 **1. Using with a Plugin**
@@ -373,7 +373,7 @@ build:
 
 <details>
   <summary>Using onError</summary>
-  
+
   <br/>
 
 **1. Using with a Plugin**
@@ -416,7 +416,7 @@ build:
 
 <details>
   <summary>Using onEnd</summary>
-  
+
   <br/>
 
 **1. Using with a Plugin**
@@ -547,28 +547,13 @@ plugins:
 
 ### What can plugins do?
 
-Plugins can do a-lot and we are excited what the JAMstack community will build!
+Plugins can do a lot and we are excited to see what _you_ will build! The sky is the limit 🌈
 
-**Here are some examples:**
-
-- **@netlify/plugin-lighthouse** to automatically track your lighthouse site score between deployments
-- **@netlify/plugin-sitemap** to generate sitemaps after build
-- **@netlify/plugin-notify** to automatically wired up build notifications
-- **@netlify/plugin-no-more-404** fail build or warn if prior .html files disappear without corresponding Netlify
-  redirects.
-- **@netlify/plugin-axe** to automatically audit site for accessibility issues
-- **@netlify/plugin-encrypted-files** to encrypt files in source, but to decrypt them locally and for the build, so that
-  you can do _partial_ open source sites without leaking announcements or private info.
-- **@netlify/plugin-twiliosms** text your boss every time you deploy so they know you're working -
-  [example guide here in Creating and using your first Netlify Build Plugin](https://www.netlify.com/blog/2019/10/16/creating-and-using-your-first-netlify-build-plugin/)
-- **@netlify/plugin-svgoptimizer** to automatically optimize all SVGs in a directory when the site is built
-- **netlify-plugin-cypress** to automatically run integration tests
-- **netlify-plugin-tweet-new-post** to automatically share new content via twitter on new publish
-- ... the sky is the limit 🌈
+Check out a few examples of plugins built by members of the JAMstack community.
 
 ## Community Plugins
 
-To add a plugin, add informations to the
+To add a plugin to the list, add the information to the
 [plugins.json file]('https://github.com/netlify/plugins/blob/master/plugins.json').
 
 <!-- AUTO-GENERATED-CONTENT:START (COMMUNITY_PLUGINS) -->
