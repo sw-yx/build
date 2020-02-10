@@ -554,7 +554,7 @@ Check out a few examples of plugins built by members of the JAMstack community.
 ## Community Plugins
 
 To add a plugin to the list, add the information to the
-[plugins.json file]('https://github.com/netlify/plugins/blob/master/plugins.json').
+[plugins.json file](https://github.com/netlify/plugins/blob/master/plugins.json).
 
 <!-- AUTO-GENERATED-CONTENT:START (COMMUNITY_PLUGINS) -->
 
